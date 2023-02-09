@@ -4,11 +4,9 @@
 int main(int argc, char const *argv[])
 {
     char chr;
-
-    printf("Enter a Uppercase Letter >>  ");
+    printf("Enter a letter >> ");
     scanf("%c", &chr);
 
-    printf("From this %c to this %c.", chr, towlower(chr));
-
+    printf("From this '%c' to this '%c'.", chr, toupper(chr));
     return 0;
 }
