@@ -4,15 +4,9 @@
 int main(void)
 {
     // Compare two strings as lowercase
-    if (0 == stricmp("hello", "HELLO"))
-    {
-        printf("The strings are equivalent.\n");
-    }
 
-    else
-    {
-        printf("The strings are not equivalent.\n");
-    }
-
+    int check;
+    check = stricmp("Willie", "WILLIE") == 0 ? printf("The strings are equivalent.\n") :
+                                             printf("The strings are not equivalent.\n");
     return 0;
 }

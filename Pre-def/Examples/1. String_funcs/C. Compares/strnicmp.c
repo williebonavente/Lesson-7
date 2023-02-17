@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    char *str1 = "THIS IS THE FIRST STRING";
-    char *str2 = "This is the second string";
+    char *str1 = "Willie M. Bonavente";
+    char *str2 = "WILLIE M. BONAVENTE";
 
     int num_result;
     // Compare the first 11 characters of str1 and str2

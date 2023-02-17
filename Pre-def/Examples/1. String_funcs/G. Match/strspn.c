@@ -5,7 +5,8 @@
 
 int main(void)
 {
-    int len = strspn("Willie M. Bonavente", "Willie");
+
+    int len = strspn("Willie M. Bonavente", "e");
     printf("Length of initial segment matching : %d\n", len);
 
     return 0;

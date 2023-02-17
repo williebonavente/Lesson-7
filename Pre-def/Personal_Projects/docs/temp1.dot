@@ -1,0 +1,37 @@
+digraph {
+
+       // Display 1
+    subgraph cluster_0  {
+         style = filled;
+         color = lightgrey;
+         node [style = filled, color = white];
+         a0 -> a1 -> a2 -> a3;
+         label = "process #1";   
+    }
+
+    // Display 2
+    subgraph cluster_1 {
+        node [style  = filled];
+        b0 -> b1 -> b2 -> b3;
+        label = "process #2";
+        color = blue;
+    }
+
+    subgraph cluster_2 {
+        node [style = filled, color = lightgrey]
+        c0 -> c1 -> c2 -> c3;
+        label = "process #3";
+        color = black;
+    }
+    start -> a0, b0, c0;
+    a3 -> a0;
+    a3 -> b3;
+    b3 -> c3 -> c4 , c5, c6;
+    c6 -> c0;
+    a3 -> end;
+    c4 -> end;
+    c4, c5, c6 -> end;
+
+    start[shape = Mdiamond];
+    end [shape = Msquare];
+}
