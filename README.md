@@ -27,7 +27,7 @@ This repository contains example C programs demonstrating the usage of the strin
    ```
 2. **Navigate to the Lesson 7 Directory**: Change your working directory to the lesson-7 directory:
    ```
-   cd Lesson 7
+   cd Lesson-7
    ```
 3. **Explore the Examples**: Inside the examples directory, you will find sample C programs for each string function. Open and study these programs to understand how each function works.
 4. Compile and Run: Use your preferred C compiler (e.g., GCC) to compile the example programs. For instance:
